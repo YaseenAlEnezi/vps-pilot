@@ -1,6 +1,6 @@
 {
   "name": "vps-pilot",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Setup wizard for VPS: configure projects, generate deploy scripts, ecosystem.config.js, and nginx configs",
   "main": "lib/index.js",
   "bin": {
