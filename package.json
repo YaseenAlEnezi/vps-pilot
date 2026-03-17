@@ -1,0 +1,36 @@
+{
+  "name": "vps-pilot",
+  "version": "1.0.0",
+  "description": "Setup wizard for VPS: configure projects, generate deploy scripts, ecosystem.config.js, and nginx configs",
+  "main": "lib/index.js",
+  "bin": {
+    "vps-pilot": "./bin/cli.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"No tests yet\""
+  },
+  "keywords": [
+    "vps",
+    "deploy",
+    "pm2",
+    "nginx",
+    "wizard",
+    "cli"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0",
+    "execa": "^9.5.2",
+    "fs-extra": "^11.2.0",
+    "inquirer": "^9.2.23"
+  }
+}
